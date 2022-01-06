@@ -62,8 +62,10 @@ etc.).
 
 - There are 59,787 *unique* solutions.
 
-  (Here, *unique* means that we do not count solutions where a piece is rotated or flipped to
-  produce a symmetrical placement.)
+  (Here, *unique* means that the arrangement of the pieces is different from every other solution
+  and we do not count solutions where a piece is rotated or flipped to produce a symmetrical
+  placement.)
+
 - Of those, 24,405 of the solutions are for *valid* dates (including Feburary 29th, the leap day).
   That represents roughly 40% of all solutions.
 
@@ -71,6 +73,6 @@ etc.).
   represent a real date. For example, "Apr" and "31" is not valid because April only has 30 days.
   Similarly, solutions with two number components or two month component are invalid because they
   are nonsensical.)
+
 - The most solvable valid date is January 25th with 216 unique solutions. The least solvable
   valid date is October 6th with 7 unique solutions.
-  
