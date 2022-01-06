@@ -3,6 +3,12 @@
 Find all solutions for the "A-Puzzle-A-Day" puzzle and save them to JSON files. Also, pretty-print
 the solutions so you can read them.
 
+![the board, unsolved](docs/unsolved.jpg)
+![a solution](docs/solve.jpg)
+
+You try to get all of the eight pieces to lay flat within the board, keeping exposed only 2 squares
+for today's date. You can buy one [here](https://www.dragonfjord.com/product/a-puzzle-a-day/).
+
 ## Usage
 
 ### Printing Solutions
@@ -36,7 +42,7 @@ of work that is being doled out to each processor.
 **I have included all solutions [here in this repo](a-puzzle-a-day-solutions/), so you don't have
 to do this step!** I think it is the complete set.
 
-If you recreate the solution files, the contents of the files will likely be different because of
+If you recreate the solution files, the contents of the files will likely be different because
 the ordering of the solutions is not deterministic (depends on your machine CPU, scheduling, load,
 etc.).
 
@@ -52,14 +58,6 @@ etc.).
    poetry install
    ```
 
-## What is this puzzle?
-
-![the board, unsolved](docs/unsolved.jpg)
-![a solution](docs/solve.jpg)
-
-You try to get all of the eight pieces to lay flat within the board, keeping exposed only 2 squares
-for today's date. You can buy one [here](https://www.dragonfjord.com/product/a-puzzle-a-day/).
-
 ## Interesting stats
 
 - There are 59,787 *unique* solutions.
@@ -74,4 +72,5 @@ for today's date. You can buy one [here](https://www.dragonfjord.com/product/a-p
   Similarly, solutions with two number components or two month component are invalid because they
   are nonsensical.)
 - The most solvable valid date is January 25th with 216 unique solutions. The least solvable
-  valid date is October 6th, with 7 unique solutions.
+  valid date is October 6th with 7 unique solutions.
+  
