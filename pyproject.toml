@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "a-puzzle-a-day"
+version = "0.1.0"
+description = ""
+authors = ["Tim Martin <tim@timmart.in>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+attrs = "^21.4.0"
+numpy = "^1.22.0"
+rich = "^10.16.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+mypy = "^0.930"
+pytest = "^6.2.5"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+pylint = "^2.12.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
